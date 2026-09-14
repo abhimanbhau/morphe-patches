@@ -1,13 +1,13 @@
-group = "app.morphe"
+group = "app.abhimanbhau.morphe-patches"
 
 patches {
     about {
-        name = "Morphe Patches"
-        description = "Patches for Morphe"
-        source = "git@github.com:MorpheApp/morphe-patches.git"
-        author = "MorpheApp"
-        contact = "na"
-        website = "https://morphe.software"
+        name = "AbeMurica's patches"
+        description = "Personal fork of Morphe Patches"
+        source = "https://github.com/abhimanbhau/morphe-patches"
+        author = "abhimanbhau"
+        contact = "https://github.com/abhimanbhau"
+        website = "https://morphe.software/add-source?github=abhimanbhau/morphe-patches"
         license = "GNU General Public License v3.0, with additional GPL section 7 requirements"
     }
 }
