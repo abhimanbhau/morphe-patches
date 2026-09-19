@@ -18,7 +18,7 @@ internal object Constants {
         ),
         targets = listOf(
             AppTarget(
-                version = "21.37.42-SECONDARY",
+                version = "21.37.42",
                 minSdk = 29,
                 isExperimental = true
             ),
@@ -28,21 +28,16 @@ internal object Constants {
                 isExperimental = true
             ),
             AppTarget(
-                version = "21.35.442",
-                minSdk = 29,
-                isExperimental = true
-            ),
-            AppTarget(
                 version = "21.28.208", // Last version with different miniplayers.
                 minSdk = 29,
                 isExperimental = true
             ),
             AppTarget(
-                version = "21.13.164",
+                version = "21.16.256",
                 minSdk = 28
             ),
             AppTarget(
-                version = "21.07.247",
+                version = "21.13.164",
                 minSdk = 28
             ),
             AppTarget(
