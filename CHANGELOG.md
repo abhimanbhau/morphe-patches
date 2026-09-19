@@ -1,3 +1,45 @@
+## [1.44.0-dev.1](https://github.com/abhimanbhau/morphe-patches/compare/v1.43.3...v1.44.0-dev.1) (2026-09-19)
+
+### 🐛 Bug Fixes
+
+* **YouTube - Channel search:** Search is scoped to a channel after leaving its page ([#2997](https://github.com/abhimanbhau/morphe-patches/issues/2997)) ([3cc051b](https://github.com/abhimanbhau/morphe-patches/commit/3cc051bfffaaee21a579a059a9be198b6d887f74))
+* **YouTube - GmsCore support:** "Play Protect certification" screen is shown on startup ([#2977](https://github.com/abhimanbhau/morphe-patches/issues/2977)) ([e250326](https://github.com/abhimanbhau/morphe-patches/commit/e25032649908890ae848ee012befbb266deb08e8))
+* **YouTube - Hide layout components:** Hide movie shelf in search results ([#2933](https://github.com/abhimanbhau/morphe-patches/issues/2933)) ([032e0f5](https://github.com/abhimanbhau/morphe-patches/commit/032e0f51f6ccf2ebbaff0c4d57f2f12b32bd8be8))
+* **YouTube - Minimal miniplayer:** Fully expand the player width during the minimization animation. ([aaa1211](https://github.com/abhimanbhau/morphe-patches/commit/aaa1211855d245b44940575dc8f9e3428593bde5))
+* **YouTube - Minimal miniplayer:** Improved type 2 bar UI ([299af68](https://github.com/abhimanbhau/morphe-patches/commit/299af68d5e90326a76febbaa0a28bbe7b7600986))
+* **YouTube - Miniplayer:** Default size setting is not grayed out with modern minimal ([aa9bc8e](https://github.com/abhimanbhau/morphe-patches/commit/aa9bc8e6b51f81b9dc497f006372efb0a13f798b))
+* **YouTube - Override YouTube Music buttons:** App can crash on devices with an OEM media route provider ([#3025](https://github.com/abhimanbhau/morphe-patches/issues/3025)) ([ef5652d](https://github.com/abhimanbhau/morphe-patches/commit/ef5652d610fa4613b2dee327ca562ab89c25d78d))
+* **YouTube - Settings:** Fix crash opening settings after the app process is restarted ([#2958](https://github.com/abhimanbhau/morphe-patches/issues/2958)) ([89b7bb0](https://github.com/abhimanbhau/morphe-patches/commit/89b7bb0cf8bc0553afa56c982bdf234f8ac68298))
+* **YouTube - SponsorBlock:** Auto-hide skip button is sometimes shown when not inside a skippable segment ([2655af1](https://github.com/abhimanbhau/morphe-patches/commit/2655af1d4240f5cd35844676fad82b489e7597c5))
+* **YouTube Music - Download in app:** Downloads fail when 'Spoof video streams' is turned off ([#3034](https://github.com/abhimanbhau/morphe-patches/issues/3034)) ([64249b8](https://github.com/abhimanbhau/morphe-patches/commit/64249b8471dd508351b9e7cfb13586812525993e))
+* **YouTube Music - Hide ads:** Premium promotion banners are not hidden ([5529b68](https://github.com/abhimanbhau/morphe-patches/commit/5529b6887aac2728fafef8fe39c1b011742e03d7))
+* **YouTube Music - Third-party lyrics:** Lyrics are not shown in a panel that has no heading ([#3033](https://github.com/abhimanbhau/morphe-patches/issues/3033)) ([4d5988b](https://github.com/abhimanbhau/morphe-patches/commit/4d5988b0eff3bce79b2ab3301d203f27e1318b43))
+* **YouTube Music - Third-party lyrics:** Musixmatch cannot be turned on and Deezer returns no lyrics ([f6c0213](https://github.com/abhimanbhau/morphe-patches/commit/f6c021343a3aa9ddf62c1cc0ec168765cfc57882))
+* **YouTube Music - Third-party lyrics:** Right to left lyrics are garbled while being highlighted ([72798cb](https://github.com/abhimanbhau/morphe-patches/commit/72798cb704b886cdd5606e6a29298e8338f5f312))
+* **YouTube:** Deprecated componentHost extension ([c42f07d](https://github.com/abhimanbhau/morphe-patches/commit/c42f07df385805aa22744fd2bc169f77b24a77c0))
+* **YouTube:** Hide player time bar backgrounds ([#3030](https://github.com/abhimanbhau/morphe-patches/issues/3030)) ([a11b9b1](https://github.com/abhimanbhau/morphe-patches/commit/a11b9b1248b0f4232b7892ad4dbe4de19caa4d2b))
+* **YouTube:** Player seekbar is not shown for some users ([bb2b91e](https://github.com/abhimanbhau/morphe-patches/commit/bb2b91e118f1d3e6766340226e4697c758e8efe3))
+* **YouTube:** Preserve fullscreen button when scale button is hidden ([#3027](https://github.com/abhimanbhau/morphe-patches/issues/3027)) ([7d4ab61](https://github.com/abhimanbhau/morphe-patches/commit/7d4ab619163fba7c20dd4666ca0fe2240eb16380))
+* **YouTube:** Restore patching on 21.38 ([67e2875](https://github.com/abhimanbhau/morphe-patches/commit/67e287598bb73a6832214b7466a8bb100a23aff9))
+* **YouTube:** Support Unicode AISList channel handles ([#3028](https://github.com/abhimanbhau/morphe-patches/issues/3028)) ([fcf415f](https://github.com/abhimanbhau/morphe-patches/commit/fcf415f43d78cb6833e2ae14db245989240f7f5e))
+
+### ✨ New Features
+
+* Add Backdrops and Battery Guru premium-unlock patches ([18cfb8a](https://github.com/abhimanbhau/morphe-patches/commit/18cfb8a827f82b83399b43b22cecc026e26fc3b9))
+* **Custom branding:** Warn that the app icon setting only changes the launcher icon ([8607c76](https://github.com/abhimanbhau/morphe-patches/commit/8607c76d33e931fc0931de8e2a52d5ac9b4d3dc6))
+* **YouTube - Save to Watch later:** Add support for Shorts ([#2934](https://github.com/abhimanbhau/morphe-patches/issues/2934)) ([b4540c9](https://github.com/abhimanbhau/morphe-patches/commit/b4540c91b1ae361f5184b96438d8f3a627a8367a))
+* **YouTube Music - Third-party lyrics:** Add syllable lyrics, new providers, romanized lyrics, mediasession lyrics, miniplayer lyrics ([#2625](https://github.com/abhimanbhau/morphe-patches/issues/2625)) ([ea883b3](https://github.com/abhimanbhau/morphe-patches/commit/ea883b34f6a750eb3f6b954742d41088b6b99879))
+* **YouTube Music - Third-party lyrics:** Animate the panel buttons between their states ([abec544](https://github.com/abhimanbhau/morphe-patches/commit/abec5445a13bb366a63109a003d8a9444f96cdf7))
+* **YouTube Music:** Add offline audio downloads ([#2528](https://github.com/abhimanbhau/morphe-patches/issues/2528)) ([d9999ca](https://github.com/abhimanbhau/morphe-patches/commit/d9999ca6695be270461b46bf41ee6e5e6ca3d0e6))
+* **YouTube:** Add `Channel search` patch ([#2964](https://github.com/abhimanbhau/morphe-patches/issues/2964)) ([acd856c](https://github.com/abhimanbhau/morphe-patches/commit/acd856cc27dde7f33042ddced67c8ee6a8c31e30))
+* **YouTube:** Add `Force fullscreen landscape mode` patch ([#2431](https://github.com/abhimanbhau/morphe-patches/issues/2431)) ([a037335](https://github.com/abhimanbhau/morphe-patches/commit/a03733538e5a56957b525a17668253eb5da404da))
+
+### 🚀 Updated App Support
+
+* **YouTube:** Add experimental support for `21.38.123` ([99126e8](https://github.com/abhimanbhau/morphe-patches/commit/99126e8fbe31aa20ab9be7d1adec4971efcf9251))
+* **YouTube:** Add experimental support for `21.47.42` ([#2962](https://github.com/abhimanbhau/morphe-patches/issues/2962)) ([9418faa](https://github.com/abhimanbhau/morphe-patches/commit/9418faaf46610875781a4952a379523c09a462db))
+* **YouTube:** Add support for `21.16.256` ([900575c](https://github.com/abhimanbhau/morphe-patches/commit/900575ccc97cb8faf831786afd693c30d28e4f9f))
+
 ## [1.44.0-dev.6](https://github.com/MorpheApp/morphe-patches/compare/v1.44.0-dev.5...v1.44.0-dev.6) (2026-09-18)
 
 ### 🚀 Updated App Support

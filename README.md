@@ -35,14 +35,14 @@ All modifications made by Morphe, along with their dates, can be found in the Gi
 ## 🩹 Patches list
 
 <!-- PATCHES_START -->
-> **[v1.44.0-dev.6](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.44.0-dev.6)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;149 patches total
+> **[v1.44.0-dev.1](https://github.com/abhimanbhau/morphe-patches/releases/tag/v1.44.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;152 patches total
 <details>
 <summary>📦 YouTube&nbsp;&nbsp;•&nbsp;&nbsp;84 patches</summary>
 <br>
 
 **🎯 Supported versions:**
 
-| 🧪&nbsp;21.37.42 | 🧪&nbsp;21.36.45 | 🧪&nbsp;21.28.208 | 21.16.256 | 21.13.164 | 20.31.42 | 20.21.37 |
+| 🧪&nbsp;21.38.123 | 🧪&nbsp;21.37.42 | 🧪&nbsp;21.28.208 | 21.16.256 | 21.13.164 | 20.31.42 | 20.21.37 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
@@ -224,13 +224,44 @@ All modifications made by Morphe, along with their dates, can be found in the Gi
 </details>
 
 <details>
-<summary>🌐 Universal&nbsp;&nbsp;•&nbsp;&nbsp;4 patches</summary>
+<summary>📦 Backdrops&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 6.1.2 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Unlock Premium](#unlock-premium) |  |  |
+
+</details>
+
+<details>
+<summary>📦 Battery Guru&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 2.5.0.7 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Unlock Premium](#unlock-premium) | Unlocks premium and marks the yearly plan as purchased. |  |
+
+</details>
+
+<details>
+<summary>🌐 Universal&nbsp;&nbsp;•&nbsp;&nbsp;5 patches</summary>
 <br>
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
 | [Change installer source](#change-installer-source) | Spoofs the installer source so the app appears to be installed from an app store. | • Spoofed package installer name |
 | [Clone app](#clone-app) | Changes the app package name to allow installing the same app multiple times. By default ".morphe" is appended to the package name. Each cloned install must use a unique package name. Cloning does not work with all apps and using this patch may cause app crashes or other unexpected behavior. | • Package name<br>• Update permissions<br>• Update providers |
+| [Disable Firebase(Google) Analytics](#disable-firebase-google-analytics) |  |  |
 | [Disable Play Store updates](#disable-play-store-updates) | Disables Play Store updates by setting the version code to the maximum allowed. This patch may cause unexpected issues with some apps and does not work if the app is installed by root mounting |  |
 | [Override certificate pinning](#override-certificate-pinning) | Overrides certificate pinning, allowing to inspect traffic via a proxy. |  |
 
